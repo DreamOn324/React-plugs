@@ -1,0 +1,167 @@
+/*reset css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #d4d4d4;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #d4d4d4;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #d4d4d4;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #d4d4d4;
+}
+
+
+/*base css*/
+
+.lar-loginAndRegister,
+.lar-input-wrap input,
+.lar-validateInput-wrap input,
+.lar-submit {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.lar-tab-a:hover,
+.lar-tab-active {
+  opacity: 1;
+}
+
+.lar-tab-a,
+.lar-submit:active {
+  opacity: .7;
+}
+
+.lar-input-wrap,
+.lar-validateInput-wrap,
+.lar-input-wrap input,
+.lar-validateInput-wrap input,
+.lar-submit {
+  width: 100%;
+}
+
+
+/*登陆/注册面板*/
+
+.lar-loginAndRegister {
+  margin: 0 5%;
+}
+
+.lar-loginAndRegister,
+.lar-tab-a {
+  display: inline-block;
+}
+
+.lar-input-wrap input,
+.lar-validateInput-wrap input,
+.lar-validateInput-wrap img {
+  height: 100%;
+}
+
+
+/*tab标签*/
+
+.lar-tab {
+  font-size: 17px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lar-tab-a {
+  overflow: hidden;
+  width: 70px;
+  -webkit-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #868687;
+}
+
+.lar-tab-active {
+  color: #0f88eb;
+}
+
+.lar-line {
+  display: block;
+  width: 44px;
+  height: 2px;
+  margin-top: -15px;
+  background: #0f88eb;
+}
+
+
+/*输入框组*/
+
+.lar-grounp-inputs {
+  border: 1px solid #d5d5d5;
+  border-bottom: 0;
+}
+
+
+/*输入框*/
+
+.lar-input-wrap,
+.lar-validateInput-wrap {
+  height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.lar-input-wrap:last-child,
+.lar-validateInput-wrap {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.lar-validateInput-wrap {
+  position: relative;
+}
+
+.lar-input-wrap input,
+.lar-validateInput-wrap input {
+  font-size: 14px;
+  line-height: 100%;
+  line-height: 40px\9;
+  text-indent: 10px;
+  color: #555;
+}
+
+.lar-validateInput-wrap img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/*登陆/提交按钮*/
+
+.lar-submit {
+  font-size: 15px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  background: #0f88eb;
+}
