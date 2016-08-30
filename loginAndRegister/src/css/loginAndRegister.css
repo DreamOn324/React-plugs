@@ -83,7 +83,7 @@ a {
 
 .lar-tab {
   font-size: 17px;
-  line-height: 35px;
+  /*line-height: 35px;*/
   margin-bottom: 10px;
   text-align: center;
 }
@@ -107,7 +107,7 @@ a {
   display: block;
   width: 44px;
   height: 2px;
-  margin-top: -15px;
+  /*margin-top: -15px;*/  
   background: #0f88eb;
 }
 
